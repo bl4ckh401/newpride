@@ -2,7 +2,7 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import DropdownMenu from "./dropdown-menu";
-import Link from "next/link";
+import Link from "../../common/sliders/Link";
 
 export default function NavItem({ navItemText, menuItems = false, megaMenu = false }) {
 	const [isOpenDropDown, setIsOpenDropDown] = useState(false);
@@ -12,16 +12,16 @@ export default function NavItem({ navItemText, menuItems = false, megaMenu = fal
 
 	function GenerateLinkHrefContent(menuItems, navItemText) {
 		if (!menuItems) {
-			return "/" + navItemText.split(" ").join("-").toLowerCase();
+			return navItemText.split(" ").join("-").toLowerCase();
 		} else {
-			return "/#";
+			return "#";
 		}
 	}
 
 	return (
 		<li className={`nav-item ${menuItems ? "nav-item-has-children" : ""}`}>
 			{/* <Link href={GenerateLinkHrefContent(menuItems, navItemText)} legacyBehavior> */}
-				<Link href="#" className="nav-link-item drop-trigger" onClick={handleClick}>
+				<Link href={GenerateLinkHrefContent(menuItems, navItemText)} className="nav-link-item drop-trigger" onClick={handleClick}>
 					{navItemText}
 					{menuItems && <FontAwesomeIcon icon={faAngleDown} />}
 				</Link>

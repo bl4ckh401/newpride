@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function SectionOne() {
 	return (
-		<div className="section bg-gray-500 zuzu-section-padding">
+		<div className="section bg-gray-500 zuzu-section-padding" id="about">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-6">

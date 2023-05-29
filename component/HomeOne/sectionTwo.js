@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function SectionTwo() {
 	return (
-		<div className="section bg-gray-500 zuzu-section-padding3 position-relative">
+		<div className="section bg-gray-500 zuzu-section-padding3 position-relative" id="how-to-buy">
 			<div className="container">
 				<div className="zuzu-section-title">
 					<div className="zuzu-default-content dark font-grotesk">

@@ -7,21 +7,22 @@ const ModalVideo = dynamic(() => import("react-modal-video"), { ssr: false });
 export default function HeroSection() {
 	const [isOpen, setOpen] = useState(false);
 	return (
-		<div>
+		<div id="home">
 			<div
 				className="zuzu-hero-section bg-cover"
 				style={{ backgroundImage: "url(/images/all-img/v1/hero-bg.png)" }}
 			>
 				<div className="container">
 					<div className="row">
-						<div className="col-lg-6 d-flex align-items-center">
+						<div className="col-lg-6 align-items-center">
 							<div className="zuzu-hero-content zuzu-dark-content font-cabin">
 								<h1 className="wow fadeInUpX" data-wow-delay="0s">
-								Welcome to the Fabulous World of $Pride! 🌈✨
+								Welcome to the World of $Pride! 🌈✨
 								</h1>
 								<p className="wow fadeInUpX" data-wow-delay="0.25s">
 								Step into a realm where empowerment, fabulousness, and financial freedom intersect. $Pride Token is here to celebrate the LGBTQ+ community and ignite the rainbow revolution! Are you ready to join the most fabulous movement in the crypto sphere? Let's dive in!
 								</p>
+								<p className="" data-wow-delay="0.25s">0x1066D6d936C9DE443707C3113107e6<br/>E23a3c3ee8</p>
 								<div className="zuzu-hero-btn-wrap">
 									<Link href={"https://pancakeswap.finance/swap?outputCurrency=0x1066D6d936C9DE443707C3113107e6E23a3c3ee8"} legacyBehavior>
 										<a className="zuzu-btn btn-white pill wow fadeInUpX" data-wow-delay="0.40s">
@@ -38,30 +39,22 @@ export default function HeroSection() {
 									</Link>
 								</div>
 								<div className="zuzu-hero-btn-wrap">
-									<Link href="https://twitter.com/pride_token" className='ml-2'>
+									<Link href="https://twitter.com/pride_token" className=''>
 									<Image src='/twitterIcon.webp' width={60} height={60} alt='twitter'/>
 									</Link>
-									<Link href="https://t.me/pride_token" className='mx-2'>
+									<Link href="https://t.me/pride_token" className='mx-1'>
 									<Image src='/telegramIcon.webp' width={60} height={60} alt='telegram'/>
 									</Link>
-									<Link href="https://www.tiktok.com/@pridetoken2" className='mx-2'>
-									<Image src='/tiktok.png' width={60} height={60} alt='tiktok'/>
-									</Link>
-									<Link href="https://youtube.com/@Pridetoken" className='mx-2'>
-									<Image src='/ytlogo.png' width={60} height={60} alt='youtube'/>
-									</Link>
-									<Link href="https://www.dextools.io/app/en/bnb/pair-explorer/0xecb9ebe5002286e80e6d5442ca4502ff280dd7ed" className='mx-2'>
+									<Link href="https://www.dextools.io/app/en/bnb/pair-explorer/0xecb9ebe5002286e80e6d5442ca4502ff280dd7ed" className='mx-1'>
 									<Image src='/dexTool.webp' width={60} height={60} alt='dexTool'/>
 									</Link>
-									<Link href="https://bscscan.com/token/0x1066d6d936c9de443707c3113107e6e23a3c3ee8" className='mx-2'>
+									<Link href="https://bscscan.com/token/0x1066d6d936c9de443707c3113107e6e23a3c3ee8" className='mx-1'>
 									<Image src='/bscscanIcon.png' width={60} height={60} alt='etherscan'/>
 									</Link>
-									<Link href="https://pancakeswap.finance/swap?outputCurrency=0x1066D6d936C9DE443707C3113107e6E23a3c3ee8" className='mx-2'>
+									<Link href="https://pancakeswap.finance/swap?outputCurrency=0x1066D6d936C9DE443707C3113107e6E23a3c3ee8" className='mx-1'>
 									<Image src='/pancakeSwap.png' width={60} height={60} alt='pancake'/>
 									</Link>
 								</div>
-								<p className="pt-4">0x1066D6d936C9DE443707C3113107e6E23a3c3ee8</p>
-
 							</div>
 						</div>
 						<div className="col-lg-6">

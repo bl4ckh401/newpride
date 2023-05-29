@@ -81,6 +81,7 @@ body {
 	counter-reset: my-sec-counter;
 	font-size: 18px;
 	line-height: 30px;
+	scroll-behavior: smooth;
 }
 
 body.styleguide {
@@ -3676,6 +3677,7 @@ a.zuzu-card-btn {
 @media (max-width: 991px) {
 	.zuzu-hero-content {
 		text-align: center;
+		min-width: 320px;
 	}
 }
 .zuzu-hero-content.zuzu-dark-content h1 {
@@ -3685,15 +3687,17 @@ a.zuzu-card-btn {
 	color: var(--gray-10);
 }
 .zuzu-hero-content p {
-	font-size: 20px;
-	line-height: 32px;
+	font-size: 18px;
+	line-height: 28px;
 	letter-spacing: -0.5px;
 	color: var(--gray-800);
+	min-width: 320px;
 }
 @media (max-width: 767px) {
 	.zuzu-hero-content p {
-		font-size: 18px;
-		line-height: 28px;
+		font-size: 16px;
+		line-height: 24px;
+		min-width: 320px;
 	}
 }
 .zuzu-hero-content.font-cabin h1 {

@@ -49,7 +49,7 @@ export default function CardSliderOne() {
 		],
 	};
 	return (
-		<div className="section bg-gray-500 zuzu-section-padding2">
+		<div className="section bg-gray-500 zuzu-section-padding2" id="roadmap">
 			<div className="container">
 				<div className="zuzu-section-title">
 					<div className="zuzu-default-content dark large font-cabin">

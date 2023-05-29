@@ -22,7 +22,7 @@ export default function HeaderHomeOne() {
 				<nav className="navbar site-navbar">
 					{/* Brand Logo*/}
 					<div className="brand-logo zuzu-menu-left">
-						<Logo logo_name={"LGBTQ.png"} />
+						<Logo logo_name={"Heart.png"} />
 					</div>
 					<div className="menu-block-wrapper">
 						<div

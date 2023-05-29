@@ -2,12 +2,12 @@ import Link from "next/link";
 
 export default function SectionFour() {
 	return (
-		<div className="section bg-gray-500 zuzu-section-padding-bottom overflow-hidden extra-padding">
+		<div className="section bg-gray-500 zuzu-section-padding-bottom overflow-hidden extra-padding" id="tokenomics">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-6 order-lg-2">
 						<div className="zuzu-circle-thumb wow fadeInUpX" data-wow-delay="0.1s">
-							<img src="/images/all-img/v1/Heart.png" alt="" />
+							<img src="/images/logo/LGBTQ.png" alt="" />
 						</div>
 					</div>
 					<div className="col-lg-6 d-flex align-items-center">
