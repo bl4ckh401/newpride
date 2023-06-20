@@ -42,6 +42,9 @@ export default function HeaderHomeOne() {
 								<NavItem navItemText="HOW TO BUY"/>
 								<NavItem navItemText="TOKENOMICS"/>
 								<NavItem navItemText="WHY BE PART OF PRIDE" />
+								<Link href={"https://blog.pridecoin.io/"} className="nav-link-item drop-trigger">
+									BLOG
+								</Link>
 								<NavItem navItemText="ROADMAP" />
 							</Navbar>
 						</nav>
@@ -49,7 +52,7 @@ export default function HeaderHomeOne() {
 
 					<div className="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
 						<Link href={"https://pancakeswap.finance/swap?outputCurrency=0x1066D6d936C9DE443707C3113107e6E23a3c3ee8"} legacyBehavior>
-							<a className="zuzu-btn zuzu-header-btn rounded-pill black">Get Started</a>
+							<a className="zuzu-btn zuzu-header-btn rounded-pill black">Launch App</a>
 						</Link>
 					</div>
 					<div className="mobile-menu-trigger" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
