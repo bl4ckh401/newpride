@@ -1,6 +1,6 @@
 export default function SectionOne() {
 	return (
-		<div className="section bg-gray-500 zuzu-section-padding3" id="why-be-part-of-pride">
+		<div className="section bg-gray-500 zuzu-section-padding3" id="why-buy">
 			<div className="container">
 				<div className="zuzu-section-title">
 							<div className="zuzu-default-content sm dark font-syne">
